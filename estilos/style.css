@@ -125,6 +125,16 @@ form > input(type=submit):hover {
     background-color: #2d6462;
 }
 
+div#formulario > form > span#mail {
+    transform: translate(185px, -34px);
+    font-size: 1.8em;
+    color: rgba(0, 0, 0, 0.748);
+}
+
+form > a.botao {
+    padding-bottom: 10px;
+}
+
 form > a.botao, form > input.botao {
     display: block;
     text-align: center
@@ -132,6 +142,7 @@ form > a.botao, form > input.botao {
     width: 100%;
     height: 40px;
     padding-top: 5px;
+    padding-bottom: 5px;
     text-align: center;
     margin-top: 5px;
     background-color: white;
