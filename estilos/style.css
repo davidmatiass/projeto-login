@@ -86,9 +86,9 @@ div.campo > label {
     display: none;
 }
 
-div.campo > i {
-    color: white;
-    font-size: 1.9em;
+div.campo > span.material-symbols {
+    color: rgba(255, 255, 255, 0.775);
+    font-size: 1.8em;
     width: 40px;
     padding: 5px;
 }
@@ -101,7 +101,7 @@ div.campo > input {
     border: 0px;
     border-radius: 8px;
     padding: 4px;
-    transform: translate(38px, -42px);
+    transform: translate(38px, -39px);
 }
 
 div.campo > input:focus {
@@ -146,6 +146,6 @@ form > a.botao:hover, form > input.botao:hover {
     background-color: #6cd3cf;
 }
 
-form > a.botao > span {
-    font-size: 2em;
+form > a.botao > span.material-symbols {
+    font-size: 1.5em;
 }
