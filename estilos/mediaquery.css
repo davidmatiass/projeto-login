@@ -5,24 +5,38 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
-    section#login {
+    main > section#login {
         width: 80vw;
     }
-    section#login > div#imagem {
+
+    main > section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
     }
 
-    section#login > div#formulario {
+    main > section#login > div#formulario {
         float: right;
         width: 70%;
     }    
+
+    main > section#login > div#formulario > p {
+        font-size: 1.1em;
+    }
     
-    div.campo > input {
-           transform: translate(50px, -41px);
+    main > section#login > div#formulario > form > div.campo > input {
+           transform: translate(5px, -9px);
            width: calc(100% - 50px);
      }
+
+     main > section#login > div#formulario > form > span#mail {
+         transform: translate(340px, -34px);
+         font-size: 1.8em;
+        }
+
+        main > section#login > div#formulario > form > a.botao, main > section#login > div#formulario > form > input.botao {
+            font-size: 1.2em;
+        }
 }
 
 @media screen and (min-width: 992px) {
@@ -31,12 +45,12 @@
         background-image: linear-gradient(to top, #49a09d, #5f2c82);
     }
 
-    section#login {
+    main > section#login {
         width: 950px;
         height: 350px;
     }
 
-    section#login > div#imagem {
+    main >section#login > div#imagem {
         float: right;
         width: 40%;
         height: 100%;
@@ -50,15 +64,22 @@
         font-size: 2.em;
      }
 
-     div#formulario > p {
-        font-size: 1em;
+     body > main > section#login > div#formulario > p {
+        font-size: 1.2em;
         margin: 20px 0px;
      }
 
-         div.campo > input {
-           transform: translate(60px, -41px);
-           width: calc(100% - 60px);
+     main > section#login > div#formulario > form > div.campo > input {
+           transform: translate(39px, -39.5px);
+           width: calc(100% - 40px);
      }
 
+     main > section#login > div#formulario > form > span#mail {
+         transform: translate(350px, -34px);
+         font-size: 1.8em;
+        }
 
+        main > section#login > div#formulario > form > a.botao, main > section#login > div#formulario > form > input.botao {
+            font-size: 1.2em;
+        }
 }
